@@ -1,0 +1,6 @@
+@showoff_backend_HostAddress = http://localhost:5202
+
+GET {{showoff_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
