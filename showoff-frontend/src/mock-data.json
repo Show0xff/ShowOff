@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Product Launch Preparation",
+    "start-date": "2025-01-01",
+    "end-date": "2025-01-07",
+    "content": [
+      "Finalized the product design",
+      "Completed the marketing strategy",
+      "Organized the launch event logistics",
+      "Met with the product team for a final review"
+    ],
+    "rating": 5
+  },
+  {
+    "title": "Team Building and Workshops",
+    "start-date": "2025-01-08",
+    "end-date": "2025-01-14",
+    "content": [
+      "Attended a leadership workshop",
+      "Held a team-building exercise",
+      "Organized a feedback session with the team"
+    ],
+    "rating": 4
+  },
+  {
+    "title": "Client Meeting and Follow-up",
+    "start-date": "2025-01-15",
+    "end-date": "2025-01-21",
+    "content": [
+      "Held a meeting with the client to discuss project updates",
+      "Sent follow-up emails to the client",
+      "Reviewed client feedback on the prototype"
+    ],
+    "rating": 3
+  },
+  {
+    "title": "Development Sprint",
+    "start-date": "2025-01-22",
+    "end-date": "2025-01-28",
+    "content": [
+      "Completed a sprint planning session",
+      "Developed new features for the app",
+      "Fixed critical bugs from previous sprints"
+    ],
+    "rating": 4
+  },
+  {
+    "title": "Marketing Campaign Launch",
+    "start-date": "2025-01-29",
+    "end-date": "2025-02-04",
+    "content": [
+      "Launched a new social media campaign",
+      "Collaborated with influencers for product promotion",
+      "Analyzed initial campaign metrics and adjusted strategy"
+    ],
+    "rating": 4
+  },
+  {
+    "title": "Research and Development",
+    "start-date": "2025-02-05",
+    "end-date": "2025-02-11",
+    "content": [
+      "Conducted market research for new features",
+      "Explored new technologies for app improvement",
+      "Wrote a report on potential new product ideas"
+    ],
+    "rating": 3
+  },
+  {
+    "title": "Employee Onboarding",
+    "start-date": "2025-02-12",
+    "end-date": "2025-02-18",
+    "content": [
+      "Led a welcome session for new hires",
+      "Assisted with setting up new employee workstations",
+      "Conducted orientation sessions for HR policies"
+    ],
+    "rating": 4
+  },
+  {
+    "title": "Product Testing and Feedback",
+    "start-date": "2025-02-19",
+    "end-date": "2025-02-25",
+    "content": [
+      "Tested new features in the product",
+      "Collected feedback from beta testers",
+      "Worked with the development team to fix reported bugs"
+    ],
+    "rating": 5
+  },
+  {
+    "title": "Quarterly Business Review",
+    "start-date": "2025-02-26",
+    "end-date": "2025-03-04",
+    "content": [
+      "Prepared and presented quarterly performance report",
+      "Reviewed key performance indicators with management",
+      "Identified opportunities for improvement in Q2"
+    ],
+    "rating": 4
+  },
+  {
+    "title": "Conference and Networking",
+    "start-date": "2025-03-05",
+    "end-date": "2025-03-11",
+    "content": [
+      "Attended an industry conference",
+      "Networked with potential partners and clients",
+      "Joined workshops on emerging trends in technology"
+    ],
+    "rating": 4
+  }
+]
