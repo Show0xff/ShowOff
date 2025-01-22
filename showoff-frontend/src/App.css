@@ -1,0 +1,43 @@
+
+ul.week-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.week-list li {
+  display: block;
+  cursor: pointer;
+  border-radius: 1em;
+  background-color: #f5f5f5;
+  padding: 0.5em 0.75em;
+  margin: 1.5em;
+  min-width: 24em;
+}
+
+ul.week-list li a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+ul.week-list li h2 {
+  margin-top: 0;
+}
+
+ul.week-list li span.date {
+  font-size: 0.8em;
+  color: #666;
+}
+
+ul.week-list li div.rating {
+  display: flex;
+  margin-top: 0.5em;
+  height: 0.4em;
+}
+
+ul.week-list li div.rating span {
+  background-color: #7DED7B;
+  border-radius: 0.5em;
+  width: calc(20% - 2 * 0.2em);
+  margin: 0 0.2em;
+}

@@ -1,3 +1,4 @@
+import { useParams, useNavigate  } from 'react-router';
 import './App.css'
 import mock from './mock-data.json'
 
@@ -13,9 +14,11 @@ interface WeekEntry {
     rating: Rating;              // Rating from 0 to 5
 };
 
-function App() {
+export function App() {
+    const navigate = useNavigate();
+    
     return (
-        <ul>
+        <ul className="week-list">
             {
                 data.map((item, index) => {
                     const formatted_start = new Date(item['start-date']).toLocaleDateString('en-US', {
@@ -28,10 +31,14 @@ function App() {
                     });
 
                     return (
-                        <li key={index}>
+                        <li key={index} onClick={() => navigate(`/${index}`)}>
                             <h2>{item.title}</h2>
-                            <p>{formatted_start} - {formatted_end}</p>
-                            <p>rating: {item.rating}</p>
+                            <span className="date">{formatted_start} - {formatted_end}</span>
+                            <div className="rating">
+                                {[...Array(item.rating)].map((index) => (
+                                    <span key={index} />
+                                ))}
+                            </div>
                         </li>
                     )
                 })
@@ -40,4 +47,19 @@ function App() {
     )
 }
 
-export default App
+export function WeekPage() {
+    const params = useParams();
+    const week = data[Number(params.week)];
+
+    return (
+        <div>
+            <h1>{week.title}</h1>
+            <span>{week['start-date']} - {week['end-date']}</span>
+            <ul>
+                {week.content.map((item, index) => (
+                    <li key={index}>{item}</li>
+                ))}
+            </ul>
+        </div>
+    )
+}

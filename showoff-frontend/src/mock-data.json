@@ -20,7 +20,7 @@
       "Held a team-building exercise",
       "Organized a feedback session with the team"
     ],
-    "rating": 4
+    "rating": 2
   },
   {
     "title": "Client Meeting and Follow-up",
@@ -42,7 +42,7 @@
       "Developed new features for the app",
       "Fixed critical bugs from previous sprints"
     ],
-    "rating": 4
+    "rating": 1
   },
   {
     "title": "Marketing Campaign Launch",
@@ -86,7 +86,7 @@
       "Collected feedback from beta testers",
       "Worked with the development team to fix reported bugs"
     ],
-    "rating": 5
+    "rating": 3
   },
   {
     "title": "Quarterly Business Review",
@@ -97,7 +97,7 @@
       "Reviewed key performance indicators with management",
       "Identified opportunities for improvement in Q2"
     ],
-    "rating": 4
+    "rating": 1
   },
   {
     "title": "Conference and Networking",
